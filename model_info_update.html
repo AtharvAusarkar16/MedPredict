@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Info Update</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body style="font-family: 'Inter', sans-serif; padding: 2rem;">
+
+<h2>Add this Model Info Card to index.html</h2>
+
+<div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-radius: 1.5rem; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; border: 2px solid #90caf9; box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15); max-width: 680px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem;">
+        <span style="font-size: 1.1rem; font-weight: 700; color: #1976d2;">
+            <i class="fas fa-brain"></i> Model Information
+        </span>
+        <span style="background: #4caf50; color: white; padding: 0.3rem 0.8rem; border-radius: 2rem; font-size: 0.85rem; font-weight: 600;">
+            ✅ No Multicollinearity
+        </span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem;">
+        <div style="background: white; padding: 0.7rem; border-radius: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #666; margin-bottom: 0.3rem;">Algorithm</div>
+            <div style="font-weight: 600; color: #1976d2; font-size: 0.9rem;">Random Forest</div>
+        </div>
+        <div style="background: white; padding: 0.7rem; border-radius: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #666; margin-bottom: 0.3rem;">R² Score</div>
+            <div style="font-weight: 600; color: #4caf50; font-size: 0.9rem;">0.1023</div>
+        </div>
+        <div style="background: white; padding: 0.7rem; border-radius: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #666; margin-bottom: 0.3rem;">MAE</div>
+            <div style="font-weight: 600; color: #ff9800; font-size: 0.9rem;">14.46 days</div>
+        </div>
+        <div style="background: white; padding: 0.7rem; border-radius: 1rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: #666; margin-bottom: 0.3rem;">Features</div>
+            <div style="font-weight: 600; color: #9c27b0; font-size: 0.9rem;">15 Engineered</div>
+        </div>
+    </div>
+</div>
+
+<h3>Instructions:</h3>
+<ol>
+    <li>Open <code>templates/index.html</code></li>
+    <li>Find the line with <code>&lt;!-- interactive live preview --&gt;</code></li>
+    <li>Paste the Model Info Card code ABOVE it (after the subhead div, before live-hint)</li>
+    <li>Save and refresh your browser!</li>
+</ol>
+
+</body>
+</html>
