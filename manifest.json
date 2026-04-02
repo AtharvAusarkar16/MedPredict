@@ -1,0 +1,23 @@
+{
+    "name": "MedPredict - Hospital Stay Predictor",
+    "short_name": "MedPredict",
+    "description": "AI-powered hospital stay duration prediction",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#e9f0f9",
+    "theme_color": "#1a535c",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/static/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["health", "medical", "productivity"]
+}
